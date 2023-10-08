@@ -1,11 +1,5 @@
 # Skill
-Template skill
-
-## Description
-This is a skill template, see [the docs](https://docs.furhat.io/skills/#the-contents-of-a-skill) for a breakdown of the content. 
-For more example skills go to [our Github](https://github.com/FurhatRobotics/)
+A furhat skill written in Kotlin and the Furhat SDK. You can order potions with varying strength, effects, and pickup times from a fantasy potion seller.
 
 ## Usage
-Max number of users is set to: 2
-Default interaction distance is set to: 1 m
-No other specific requirements. 
+![image](https://github.com/lewetzk/potionseller/assets/66308608/aed9fdef-ac76-45f8-899d-6b748bc68c31)
