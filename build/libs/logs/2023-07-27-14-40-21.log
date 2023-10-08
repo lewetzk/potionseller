@@ -1,0 +1,5 @@
+14:40:21 [Skill] INFO  Skill:137 - Connecting to Furhat server on 192.168.0.78:1932
+14:40:21 [PotionsellerSkill] INFO  PotionsellerSkill:164 - Starting skill
+14:40:37 [EventSystem] ERROR EventSystem:183 - Timed out while waiting for class furhatos.event.responses.ResponseFaceEngine
+14:40:37 [EventSystem] WARN  FurhatFace:255 - Exception while waiting for FaceEngine
+14:45:52 [Broker Client] ERROR BrokerClient:152 - Unexpected disconnect from broker

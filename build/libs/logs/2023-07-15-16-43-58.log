@@ -1,0 +1,11 @@
+16:43:58 [Skill] INFO  Skill:137 - Connecting to Furhat server on 192.168.0.78:1932
+16:43:58 [PotionsellerSkill] INFO  PotionsellerSkill:164 - Starting skill
+16:44:07 [EventSystem] ERROR EventSystem:183 - Timed out while waiting for class furhatos.event.responses.ResponseFaceEngine
+16:44:07 [EventSystem] WARN  FurhatFace:255 - Exception while waiting for FaceEngine
+16:44:08 [EventSystem] ERROR EventSystem:183 - Timed out while waiting for class furhatos.event.responses.ResponseFaceEngine
+16:44:08 [EventSystem] WARN  FurhatFace:255 - Exception while waiting for FaceEngine
+16:44:09 [EventSystem] ERROR EventSystem:183 - Timed out while waiting for class furhatos.event.responses.ResponseFaceEngine
+16:44:09 [EventSystem] WARN  FurhatFace:255 - Exception while waiting for FaceEngine
+16:44:10 [EventSystem] ERROR EventSystem:183 - Timed out while waiting for class furhatos.event.responses.ResponseFaceEngine
+16:44:10 [EventSystem] WARN  FurhatFace:255 - Exception while waiting for FaceEngine
+16:45:24 [EventSystem] INFO  PotionsellerSkill:182 - Terminating skill

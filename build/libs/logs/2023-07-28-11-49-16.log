@@ -1,0 +1,25 @@
+11:49:16 [Skill] INFO  Skill:137 - Connecting to Furhat server on 192.168.0.78:1932
+11:49:17 [PotionsellerSkill] INFO  PotionsellerSkill:164 - Starting skill
+11:55:17 [EventSystem] ERROR EventSystem:183 - Timed out while waiting for class furhatos.event.responses.ResponseFaceEngine
+11:55:17 [EventSystem] WARN  FurhatFace:255 - Exception while waiting for FaceEngine
+11:58:57 [ErrorLoggingThread] ERROR PotionsellerSkill:458 - Exception in thread "EventSystem" java.lang.NoClassDefFoundError: furhatos/event/senses/SenseUserLeave$Builder
+	at furhatos.skills.SimpleEngagementPolicy.sendSenseLeave(SimpleEngagementPolicy.kt:68)
+	at furhatos.skills.SimpleEngagementPolicy.checkEngagement(SimpleEngagementPolicy.kt:52)
+	at furhatos.skills.UserManager.reactToSenseUsers(UserManager.kt:275)
+	at furhatos.skills.UserManager.access$reactToSenseUsers(UserManager.kt:26)
+	at furhatos.skills.UserManager$onEvent$1.invoke(UserManager.kt:196)
+	at furhatos.skills.UserManager$onEvent$1.invoke(UserManager.kt:26)
+	at furhatos.skills.UserManager$sam$java_util_function_Consumer$0.accept(UserManager.kt)
+	at furhatos.event.Event.match(Event.java:146)
+	at furhatos.skills.UserManager.onEvent(UserManager.kt:196)
+	at furhatos.event.EventSystem.distributeInternal(EventSystem.java:125)
+	at furhatos.event.EventSystem.distributeNextEvent(EventSystem.java:255)
+	at furhatos.event.EventSystem.runUntilStopped(EventSystem.java:230)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: furhatos.event.senses.SenseUserLeave$Builder
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 13 more
+

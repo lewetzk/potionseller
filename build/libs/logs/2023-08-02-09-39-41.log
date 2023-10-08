@@ -1,0 +1,12 @@
+09:39:41 [Skill] INFO  Skill:137 - Connecting to Furhat server on 192.168.0.78:1932
+09:39:42 [Skill] ERROR EventSystem:183 - Timed out while waiting for class furhatos.event.responses.ResponseWebServerPort
+09:39:42 [Skill] ERROR Skill:222 - java.util.concurrent.TimeoutException
+09:39:42 [Skill] WARN  Skill:223 - Unable to get real furhatWebPort, using default of 80
+09:39:42 [PotionsellerSkill] INFO  PotionsellerSkill:164 - Starting skill
+09:39:50 [EventSystem] ERROR EventSystem:183 - Timed out while waiting for class furhatos.event.responses.ResponseFaceEngine
+09:39:50 [EventSystem] WARN  FurhatFace:255 - Exception while waiting for FaceEngine
+09:39:51 [EventSystem] ERROR EventSystem:183 - Timed out while waiting for class furhatos.event.responses.ResponseFaceEngine
+09:39:51 [EventSystem] WARN  FurhatFace:255 - Exception while waiting for FaceEngine
+09:39:52 [EventSystem] ERROR EventSystem:183 - Timed out while waiting for class furhatos.event.responses.ResponseFaceEngine
+09:39:52 [EventSystem] WARN  FurhatFace:255 - Exception while waiting for FaceEngine
+09:42:32 [Broker Client] ERROR BrokerClient:152 - Unexpected disconnect from broker

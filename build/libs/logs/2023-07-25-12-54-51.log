@@ -1,0 +1,18 @@
+12:54:52 [Skill] INFO  Skill:137 - Connecting to Furhat server on 192.168.0.78:1932
+12:54:52 [PotionsellerSkill] INFO  PotionsellerSkill:164 - Starting skill
+12:55:15 [EventSystem] ERROR EventSystem:183 - Timed out while waiting for class furhatos.event.responses.ResponseFaceEngine
+12:55:15 [EventSystem] WARN  FurhatFace:255 - Exception while waiting for FaceEngine
+12:56:30 [Broker Client] ERROR BrokerClient:152 - Unexpected disconnect from broker
+12:56:30 [EventSystem] ERROR EventSystem:116 - Problem sending to broker
+java.net.SocketException: Broken pipe (Write failed)
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:134)
+	at java.io.DataOutputStream.writeBytes(DataOutputStream.java:276)
+	at furhatos.event.BrokerClient.sendToServer(BrokerClient.java:207)
+	at furhatos.event.BrokerClient.sendTo(BrokerClient.java:169)
+	at furhatos.event.BrokerClient.send(BrokerClient.java:162)
+	at furhatos.event.EventSystem.distributeExternal(EventSystem.java:114)
+	at furhatos.event.EventSystem.distributeNextEvent(EventSystem.java:257)
+	at furhatos.event.EventSystem.runUntilStopped(EventSystem.java:230)
+	at java.lang.Thread.run(Thread.java:748)
