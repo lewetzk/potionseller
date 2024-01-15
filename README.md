@@ -70,11 +70,7 @@ To run Potionseller 2.0, follow these steps:
 - **Lea Wetzke**
   - BSc in Computerlinguistik
   - Contact: [lea.wetzke@gmail.com](mailto:lea.wetzke@gmail.com)
-
-## License
-
-This project is licensed under the [MIT License](LICENSE.md).
-
+    
 ---
 
 Feel free to contribute, report issues, or suggest improvements!
